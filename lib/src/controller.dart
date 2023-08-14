@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:video_editor_remote_coach/src/utils/helpers.dart';
 import 'package:video_editor_remote_coach/src/utils/thumbnails.dart';
 import 'package:video_editor_remote_coach/src/models/cover_data.dart';
-import 'package:video_editor_remote_coach/video_editor_remote_coach.dart';
 import 'package:video_player/video_player.dart';
+
+import '../video_editor.dart';
 
 class VideoMinDurationError extends Error {
   final Duration minDuration;
